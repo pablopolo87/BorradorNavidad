@@ -20,7 +20,7 @@ export const Header: React.FC = () => {
     { label: 'Participación', href: '/#participacion' },
     { label: 'Agenda Completa', href: '/#agenda' },
     { label: 'Tradiciones', href: '/#traditions' },
-    { label: 'Saludo', href: '/saludo' },
+    { label: 'Saludo', href: '#saludo' },
   ];
 
   return (

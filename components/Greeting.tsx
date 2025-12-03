@@ -4,7 +4,7 @@ import { SectionTitle } from './SectionTitle';
 
 export const Greeting: React.FC = () => {
   return (
-    <div className="bg-navidad-cream min-h-screen font-sans">
+    <div id="saludo" className="bg-navidad-cream min-h-screen font-sans">
       <div className="container mx-auto px-4 py-10 md:py-20">
         <SectionTitle 
           title="Saludo del Alcalde"

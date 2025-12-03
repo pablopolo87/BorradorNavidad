@@ -18,6 +18,7 @@ const MainPage: React.FC = () => (
     <Participacion />
     <Agenda />
     <Traditions />
+    <Greeting />
   </>
 );
 
@@ -31,7 +32,6 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/evento/:id" element={<EventDetail />} />
-            <Route path="/saludo" element={<Greeting />} />
           </Routes>
         </main>
 
