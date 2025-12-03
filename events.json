@@ -9,7 +9,7 @@
     "description": "Sorteo de los 2.000 € en premios el 2 de enero.",
     "descriptionExtended": "Sorteo de los 2.000 € en premios el 2 de enero. Fachada de edificio en rojo y blanco con ventanitas numeradas y el texto \"CALENDARIO DE ADVIENTO\".",
     "price": "Gratuito / 2.000 € en Premios.",
-    "category": "Tradición Local",
+    "category": "Sorteos",
     "image": "./Eventos/calendario adviento.jpg.png",
     "isFeatured": true,
     "carouselImages": []
@@ -24,7 +24,7 @@
     "descriptionExtended": "Conferencia sobre \"La representación de la Navidad en la pintura\". Fragmento de una pintura clásica que representa la Natividad.",
     "price": "Gratuito.",
     "category": "Teatro y Danza",
-    "image": "./Eventos/ciclo mirar un cuadro.jpg.png",
+    "image": "/Eventos/ciclo mirar un cuadro.jpg.png",
     "isFeatured": true,
     "carouselImages": []
   },
