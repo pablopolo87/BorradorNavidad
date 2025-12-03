@@ -64,9 +64,9 @@ export const FeaturedEvents: React.FC = () => {
   return (
     <section id="featured" className="py-20 bg-white relative">
       <div className="container mx-auto px-4">
-        <SectionTitle 
-          title="Eventos Destacados" 
-          subtitle="Los momentos imperdibles de esta Navidad en la costa."
+        <SectionTitle
+          title="Eventos Destacados"
+          subtitle="Los momentos imperdibles de esta Navidad en Almuñécar y La Herradura."
         />
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

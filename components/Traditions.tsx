@@ -9,8 +9,8 @@ export const Traditions: React.FC = () => {
       <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '40px 40px' }}></div>
       
       <div className="container mx-auto px-4 relative z-10">
-        <SectionTitle 
-          title="Tradición Costera en Navidad" 
+        <SectionTitle
+          title="Tradición de Almuñécar y La Herradura en Navidad"
           subtitle="Una Navidad diferente, bañada por el Mediterráneo."
           light={true}
         />

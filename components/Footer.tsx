@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
             </div>
             <p className="text-white/80 text-sm leading-relaxed mb-6">
               Agenda Cultural Oficial de Navidad 2025. <br/>
-              Promoviendo la cultura y tradición en la Costa Tropical.
+              Promoviendo la cultura y tradición en Almuñécar y La Herradura.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-navidad-gold hover:text-navidad-red transition-all">
