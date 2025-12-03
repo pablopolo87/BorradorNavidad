@@ -1,5 +1,5 @@
 import React from 'react';
-import saludoImg from '../saludo.jpg';
+import saludoImg from './saludo.jpg';
 import { SectionTitle } from './SectionTitle';
 
 export const Greeting: React.FC = () => {
