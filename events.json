@@ -9,7 +9,7 @@
     "description": "Sorteo de los 2.000 € en premios el 2 de enero.",
     "descriptionExtended": "Sorteo de los 2.000 € en premios el 2 de enero. Fachada de edificio en rojo y blanco con ventanitas numeradas y el texto \"CALENDARIO DE ADVIENTO\".",
     "price": "Gratuito / 2.000 € en Premios.",
-    "category": "Tradición Local",
+    "category": "Sorteos",
     "image": "./Eventos/calendario adviento.jpg.png",
     "isFeatured": true,
     "carouselImages": []
@@ -24,7 +24,7 @@
     "descriptionExtended": "Conferencia sobre \"La representación de la Navidad en la pintura\". Fragmento de una pintura clásica que representa la Natividad.",
     "price": "Gratuito.",
     "category": "Teatro y Danza",
-    "image": "./Eventos/ciclo mirar un cuadro.jpg.png",
+    "image": "/Eventos/ciclo mirar un cuadro.jpg.png",
     "isFeatured": true,
     "carouselImages": []
   },
@@ -38,7 +38,7 @@
     "descriptionExtended": "Gran inauguración con Videomapping, Chocolatada, Pestiños y Colchones GRATIS. Pasacalles previo a las 18:30 H. Diseño con una estrella o ráfaga de luz brillante y el texto \"Encendido DE LAS LUCES DE NAVIDAD\".",
     "price": "Gratuito.",
     "category": "Tradición Local",
-    "image": "./Eventos/encendido luces.jpg.png",
+    "image": "/Eventos/encendido luces.jpg.png",
     "isFeatured": true,
     "carouselImages": []
   },
@@ -52,7 +52,7 @@
     "descriptionExtended": "Zambomba, bingo, barra y música. Cartel imitando los azulejos andaluces en tonos azules y blancos con una guitarra.",
     "price": "Gratuito (Consumiciones en barra).",
     "category": "Música y Conciertos",
-    "image": "./Eventos/zambomba de la resurreccion.jpg.png",
+    "image": "/Eventos/zambomba de la resurreccion.jpg.png",
     "isFeatured": false,
     "carouselImages": []
   },
@@ -66,7 +66,7 @@
     "descriptionExtended": "Taller especial para modelar adornos navideños. Inscripción previa obligatoria. Cartel que muestra cuatro recuadros con diferentes adornos hechos de arcilla.",
     "price": "Aforo limitado a 10 plazas.",
     "category": "Familiar e Infantil",
-    "image": "./Eventos/taller de alfareria.jpg.png",
+    "image": "/Eventos/taller de alfareria.jpg.png",
     "isFeatured": false,
     "carouselImages": []
   },
@@ -80,7 +80,7 @@
     "descriptionExtended": "Espectáculo presentado por Paco Carbonell con coros rocieros, comidas y postres. Cartel circular en colores verdes, blancos y rojos con siluetas de baile flamenco.",
     "price": "Gratuito.",
     "category": "Música y Conciertos",
-    "image": "./Eventos/navidad rociera.jpg.png",
+    "image": "/Eventos/navidad rociera.jpg.png",
     "isFeatured": false,
     "carouselImages": []
   },
