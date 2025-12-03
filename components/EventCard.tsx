@@ -10,6 +10,17 @@ interface EventCardProps {
 
 export const EventCard: React.FC<EventCardProps> = ({ event }) => {
   const formattedDate = (() => {
+    // If event has endDate, show range or "durante todo el mes"
+    if (event.endDate && event.time === 'Durante todo el mes') {
+      return 'Durante todo el mes';
+    } else if (event.endDate) {
+      const start = parseISO(event.date);
+      const end = parseISO(event.endDate);
+      if (!isNaN(start.getTime()) && !isNaN(end.getTime())) {
+        return `${format(start, 'dd/MM')} - ${format(end, 'dd/MM/yyyy')}`;
+      }
+    }
+    // Default case
     const d = parseISO(event.date);
     return isNaN(d.getTime()) ? event.date : format(d, 'dd-MM-yyyy');
   })();
