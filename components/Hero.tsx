@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowDown } from 'lucide-react';
 import heroImage from '../ALUMBRADO-NAVIDEÑO-EN-PLAZA-CONSTITTUCION-ALMUÑECAR-16.jpg';
+import logoAlmunecar from '../Eventos/logo-almunecar.png';
 
 const Snowflakes: React.FC = () => {
   const snowflakes = Array.from({ length: 40 }, (_, i) => ({
@@ -59,6 +60,14 @@ export const Hero: React.FC = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center mt-20">
+        <div className="flex justify-center mb-6 animate-fade-in">
+          <img
+            src={logoAlmunecar}
+            alt="Logo Almuñécar"
+            className="h-20 w-20 object-contain"
+          />
+        </div>
+
         <div className="inline-block mb-4 animate-fade-in">
              <span className="px-4 py-1 border border-white/50 rounded-full text-white text-sm uppercase tracking-[0.3em] bg-black/20 backdrop-blur-md">
                 Agenda Oficial

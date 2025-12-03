@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Gift } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import logoAlmunecar from '../Eventos/logo-almunecar.png';
 
 export const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,10 +33,12 @@ export const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         {/* Logo */}
-        <div className="flex items-center gap-2 group cursor-pointer" onClick={() => window.scrollTo(0,0)}>
-          <div className={`p-2 rounded-full border-2 ${isScrolled ? 'border-white text-white' : 'border-navidad-gold text-navidad-gold bg-black/20'}`}>
-            <Gift className="w-6 h-6" />
-          </div>
+        <div className="flex items-center gap-3 group cursor-pointer" onClick={() => window.scrollTo(0,0)}>
+          <img 
+            src={logoAlmunecar} 
+            alt="Logo Almuñécar" 
+            className={`h-12 w-12 object-contain transition-all duration-300 ${isScrolled ? 'h-10 w-10' : 'h-12 w-12'}`}
+          />
           <div className="flex flex-col">
             <span className={`font-serif font-bold text-xl leading-none tracking-wide ${isScrolled ? 'text-white' : 'text-white drop-shadow-md'}`}>
               ALMUÑÉCAR
