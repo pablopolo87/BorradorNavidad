@@ -73,8 +73,8 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-white/10 pt-8 text-center text-xs text-white/40">
-           <p>&copy; “2025 Agenda Cultural Almuñécar. Todos los derechos reservados. Diseño conceptual: <a href="Pablojlopzfernandez@gmail.com" className="underline hover:text-white">
-      Pablo López
+           <p>&copy; “2025 Agenda Cultural Almuñécar. Todos los derechos reservados. Diseño conceptual: <a href="Pablojlopezfernandez@gmail.com" className="underline hover:text-white">
+      Pablo López Fdez
     </a>”</p>
         </div>
       </div>
